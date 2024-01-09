@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "kbkdf"
+		},
+		"LS_blobconnection_connectionString": {
+			"value": ""
+		},
+		"LS_datagen_accountKey": {
+			"value": ""
+		},
+		"LS_datagen_properties_typeProperties_url": {
+			"value": "https://kbkdatagen.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
