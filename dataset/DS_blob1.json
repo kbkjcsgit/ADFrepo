@@ -1,16 +1,16 @@
 {
-	"name": "DS_datalake",
+	"name": "DS_blob1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_datalake",
+			"referenceName": "LS_blob",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobFSLocation",
-				"fileSystem": "refined1"
+				"type": "AzureBlobStorageLocation",
+				"container": "raw"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
